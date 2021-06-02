@@ -67,7 +67,7 @@ public static void main(String[] args) {
                 }
             } else if (opcion == 3) {
                 System.out.print("Digite cuantos propietarios desea"
-                        + " ingresar\n> ");
+                        + " ingresar\n");
                 datosIngresar = entrada.nextInt();
                 entrada.nextLine();
                 for (int i = 0; i < datosIngresar; i++) {
@@ -439,7 +439,7 @@ public static void main(String[] args) {
 
                 break;
             default:
-                System.out.println("\033[0;1mOpcion Incorrecta");
+                System.out.println("Opcion Incorrecta");
                 break;
         }
     }
